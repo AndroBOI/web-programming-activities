@@ -1,0 +1,121 @@
+* {
+    font-family: arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: 100px 100px 1fr 100px;
+}
+
+header {
+    display: flex;
+    gap: 10px;
+    background-color: green;
+    color: white;
+    padding: 20px;
+    font-size: 1.5rem;
+    align-items: center;
+    border-bottom: gray 1px solid;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+
+}
+
+nav a {
+    text-decoration: none;
+    background-color: green;
+    padding: 10px;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+}
+
+
+nav a:hover {
+    background-color: rgb(25, 109, 25);
+}
+
+main {
+    display: flex;
+    padding: 20px;
+    gap: 10px;
+}
+
+
+form {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px black;
+    padding: 20px;
+    height: fit-content;
+    gap: 20px;
+}
+
+
+
+.input-text,
+.textarea-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+label {
+    font-size: 1.3rem;
+    font-weight: bold;
+    
+
+}
+
+input,
+textarea {
+    border: gray 2px solid;
+    border-radius: 2px;
+    flex: 1;
+}
+
+
+
+.dmmmsu-image {
+    width: 350px;
+    height: 500px;
+    flex: 1;
+}
+
+.btn {
+    background-color: green;
+    padding: 10px;
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    border-radius: 8px;
+}
+
+footer {
+    display: flex;
+
+    background-color: green;
+    color: white;
+    padding: 20px;
+    font-size: 1.5rem;
+    align-items: center;
+
+    border-top: gray solid 1px;
+}
